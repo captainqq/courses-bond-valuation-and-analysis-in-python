@@ -75,6 +75,28 @@ Here the code demonstrates how to write a python function to estimate a bond yie
 
 ---
 
+## YTM of a German government bond
+
+```yaml
+type: TwoRows
+key: 1992ae2c69
+```
+
+`@part1`
+![](https://assets.datacamp.com/production/repositories/5224/datasets/bddeeb7ba834550ac5af13a77b584371cd6f73a5/GovBond_Germany_sm.png){{1}}
+
+`@part2`
+![](https://assets.datacamp.com/production/repositories/5224/datasets/3f5ce67d4f2cbab3e2698ee63e8d470f6f4374f2/YTM_GM10Y.png){{2}}
+
+`@script`
+Here is another example: let us calculate the yield for a German government bond. Given the 10Y bond with coupon 0, price 102.17, the yield we get is -0.21%.
+ 
+Yes, we do live in a strange economic environment nowadays where bond yield can be negative. Government of Japan and some European countries have implemented negative interest rate policies in recent years, due to their sluggish economic growth and lower than expected inflation rates. 
+ 
+What does negative yield mean? Intuitively it means if you buy the bond, you are guaranteed to lose money. But why would any rational investors do that? For one thing, large Institutional investors, such as mutual funds, insurance companies, etc,  may hold negative yielding bonds in order to comply with their investment mandates,  diversification needs, or regulatory requirements. There are also some investors choose to hold negative yielding foreign bonds, hoping to take advantage of the currency appreciation. That is, the gain from foreign currency strengthening can offset the lost from the bonds.
+
+---
+
 ## Let's practice!
 
 ```yaml
