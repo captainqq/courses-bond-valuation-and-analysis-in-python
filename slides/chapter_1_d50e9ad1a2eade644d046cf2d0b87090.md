@@ -15,7 +15,7 @@ name: Chelsea Yang
 title: Instructor at DataCamp
 
 `@script`
-In this chapter you have learned the yield to maturity as an important concept for measuring a bond's internal rate of return. You also have learned various factors that may affect a bond's yield. Now let us learn how to estimate the bond yield using Python.
+In this chapter you have learned that yield to maturity is a key concept for measuring a bond's internal rate of return, and various risk factors may affect the yield. Now let us learn how to estimate the bond yield using Python.
 
 ---
 
