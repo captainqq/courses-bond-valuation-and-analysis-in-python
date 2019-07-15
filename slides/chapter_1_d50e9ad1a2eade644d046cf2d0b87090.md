@@ -15,6 +15,7 @@ name: Chelsea Yang
 title: Instructor at DataCamp
 
 `@script`
+In this chapter you have learned the yield to maturity (YTM) as an important concept for measuring a bond's internal rate of return. You also have learned various factors that may affect a bond's yield. Now let us learn how to estimate the yield to maturity of a bond using Python.
 
 
 ---
