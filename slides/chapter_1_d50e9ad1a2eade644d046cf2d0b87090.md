@@ -72,7 +72,6 @@ Thanks to python, we don't need to play this inefficient guessing game. We can a
  
 Here the code demonstrates how to write a python function to estimate a bond yield. First we implement the bond pricing formula in ytm_func. Second, we use ‘optimize’ method from the scipy package to solve the root. The goal is to make the calculated bond price equal to the market quoted price, so that ytm_func equals to zero. By default the scipy optimize function uses the classic ‘Newton Method’ to numerically search for the root. We pass two required parameters: 1) the function (whose zero is wanted), and 2) an initial guess. Voila, it will output the estimated yield.
 
-
 ---
 
 ## YTM of a US Treasury
@@ -85,7 +84,6 @@ key: 7b3d2be1fd
 `@part1`
 ![](https://assets.datacamp.com/production/repositories/5224/datasets/f2746e231f1df8bb1279cc80934cb9bcb69928d2/GovBond_US_sm.png){{1}}
 
-
 `@part2`
 ```python
 ytm_US = bond_ytm(99.43, 100, 5, 1.75, 2) #result:1.87
@@ -96,7 +94,6 @@ ytm_US = bond_ytm(99.43, 100, 5, 1.75, 2) #result:1.87
 Let us test this code in the field. Here we have traded US government bonds information from Bloomberg. Take the 5Y US treasury for example. We can input its coupon 1.75%, price $99.43, maturity 5Y to our python function and solve for the yield. Note in general government bonds pay coupons twice a year, so the payment frequency is set to 2. We obtain the yield 1.87%, which aligns with Bloomberg market data.
  
 Also notice: since this US treasury bond is priced slightly below par, its yield (1.87%) is higher than its coupon rate (1.75%) as expected.
-
 
 ---
 
