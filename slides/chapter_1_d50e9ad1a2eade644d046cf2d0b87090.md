@@ -19,7 +19,7 @@ In this chapter you have learned that yield to maturity is a key concept for mea
 
 ---
 
-## Bond Pricing Formula
+## YTM and Bond Pricing Formula
 
 ```yaml
 type: TwoRows
@@ -39,7 +39,7 @@ Recall we can obtain the current price of a plain vanilla fixed bond by calculat
  
 Here is the handy formula for it, by plugging in the bond's coupon (C), maturity (n), and yield (r), we can easily obtain the price.
  
-Conversely, if we are given the current bond price, we can estimate its yield to maturity by finding the root of this quadratic function. This is usually done by trial and error. In other words, we start by guessing a number as the approximate yield, then use it to calculate a price. Make some adjustments to the yield for a better guess, then calculate the price again. Do this iteratively, until we get a price equals to the actual market traded price.
+Conversely, if we are given the current bond price, we can estimate its yield by finding the root of this quadratic function. This is usually done by trial and error. In other words, we start by guessing a number as the approximate yield, then use it to calculate a price. Make some adjustments to the yield for a better guess, then calculate the price again. Do this iteratively, until we get a price equals to the actual market traded price.
 
 ---
 
