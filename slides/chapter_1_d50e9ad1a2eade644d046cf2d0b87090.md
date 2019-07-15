@@ -75,6 +75,27 @@ Here the code demonstrates how to write a python function to estimate a bond yie
 
 ---
 
+## Insert title here...
+
+```yaml
+type: TwoRows
+key: 7b3d2be1fd
+```
+
+`@part1`
+![](https://assets.datacamp.com/production/repositories/5224/datasets/f2746e231f1df8bb1279cc80934cb9bcb69928d2/GovBond_US_sm.png)
+
+
+`@part2`
+```python
+ytm_US = bond_ytm(99.43, 100, 5, 1.75) # result:1.87
+```
+
+`@script`
+
+
+---
+
 ## YTM of a German government bond
 
 ```yaml
