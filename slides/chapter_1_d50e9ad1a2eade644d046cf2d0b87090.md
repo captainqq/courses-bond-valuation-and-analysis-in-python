@@ -20,6 +20,26 @@ In this chapter you have learned the yield to maturity (YTM) as an important con
 
 ---
 
+## Bond Pricing Formula
+
+```yaml
+type: TwoRows
+key: d16a187084
+```
+
+`@part1`
+price of a plain vanilla fixed bond by calculating its present value
+
+
+
+`@part2`
+
+
+`@script`
+
+
+---
+
 ## Let's practice!
 
 ```yaml
