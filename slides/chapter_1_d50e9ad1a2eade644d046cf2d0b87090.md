@@ -68,9 +68,9 @@ def bond_ytm(price, par, T, coup, freq=2, guess=0.05):
 ```
 
 `@script`
-Thanks to python, we don't need to play this inefficient guessing game. We can automate this exercise by using the python package scipy. 
+Thanks to python, we don't need to play this inefficient guessing game. We can automate it using the python package scipy. 
  
-Here the code demonstrates how to write a python function to estimate a bond yield. First we implement the bond pricing formula in ytm_func. Second, we use ‘optimize’ method from the scipy package to solve the root. The goal is to make the calculated bond price equal to the market quoted price, so that ytm_func equals to zero. By default the scipy optimize function uses the classic ‘Newton Method’ to numerically search for the root. We pass two required parameters: 1) the function (whose zero is wanted), and 2) an initial guess. Voila, it will output the estimated yield.
+Here the code demonstrates how to write a python function to estimate bond yield. First we implement the bond pricing formula in ytm_func. Second, we use ‘optimize’ method from the scipy package to solve the root. The goal is to make the calculated bond price equal to the market quoted price, so that ytm_func equals to zero. By default the scipy optimize function uses the classic ‘Newton Method’ to numerically search for the root. We pass two required parameters: 1) the function (whose zero is wanted), and 2) an initial guess. Voila, it will output the estimated yield.
 
 ---
 
