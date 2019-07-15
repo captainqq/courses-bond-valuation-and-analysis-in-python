@@ -83,13 +83,14 @@ key: 7b3d2be1fd
 ```
 
 `@part1`
-![](https://assets.datacamp.com/production/repositories/5224/datasets/f2746e231f1df8bb1279cc80934cb9bcb69928d2/GovBond_US_sm.png)
+![](https://assets.datacamp.com/production/repositories/5224/datasets/f2746e231f1df8bb1279cc80934cb9bcb69928d2/GovBond_US_sm.png){{1}}
 
 
 `@part2`
 ```python
 ytm_US = bond_ytm(99.43, 100, 5, 1.75, 2) #result:1.87
 ```
+{{2}}
 
 `@script`
 Let us test this code in the field. Here we have traded US government bonds information from Bloomberg. Take the 5Y US treasury for example. We can input its coupon 1.75%, price $99.43, maturity 5Y to our python function and solve for the yield. Note in general government bonds pay coupons twice a year, so the payment frequency is set to 2. We obtain the yield 1.87%, which aligns with Bloomberg market data.
