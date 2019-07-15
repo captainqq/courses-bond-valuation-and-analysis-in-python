@@ -88,7 +88,7 @@ key: 7b3d2be1fd
 
 `@part2`
 ```python
-ytm_US = bond_ytm(99.43, 100, 5, 1.75) # result:1.87
+ytm_US = bond_ytm(99.43, 100, 5, 1.75, 2) #result:1.87
 ```
 
 `@script`
@@ -117,7 +117,7 @@ Here is another example: let us calculate the yield for a German government bond
  
 Yes, we do live in a strange economic environment nowadays where bond yield can be negative. Government of Japan and some European countries have implemented negative interest rate policies in recent years, due to their sluggish economic growth and lower than expected inflation rates. 
  
-What does negative yield mean? Intuitively it means if you buy the bond, you are guaranteed to lose money. But why would any rational investors do that? For one thing, large Institutional investors, such as mutual funds, insurance companies, etc,  may hold negative yielding bonds in order to comply with their investment mandates,  diversification needs, or regulatory requirements. There are also some investors choose to hold negative yielding foreign bonds, hoping to take advantage of the currency appreciation. That is, the gain from foreign currency strengthening can offset the lost from the bonds.
+What does negative yield mean? Intuitively it means if you buy the bond, you are guaranteed to lose money. But why would any rational investors do that? For one thing, large institutional investors, such as mutual funds, insurance companies, etc, may hold negative yielding bonds in order to comply with their investment mandates,  diversification needs, or regulatory requirements. There are also some investors choose to hold negative yielding foreign bonds, hoping to take advantage of the currency appreciation. That is, the gain from foreign currency strengthening can offset the loss from the bonds.
 
 ---
 
@@ -129,3 +129,4 @@ key: 75fba13a45
 ```
 
 `@script`
+Now It is time to get your hands dirty.
