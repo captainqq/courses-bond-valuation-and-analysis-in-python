@@ -108,7 +108,7 @@ key: 1992ae2c69
 ![](https://assets.datacamp.com/production/repositories/5224/datasets/bddeeb7ba834550ac5af13a77b584371cd6f73a5/GovBond_Germany_sm.png){{1}}
 
 `@part2`
-![](https://assets.datacamp.com/production/repositories/5224/datasets/3f5ce67d4f2cbab3e2698ee63e8d470f6f4374f2/YTM_GM10Y.png){{2}}
+![](https://assets.datacamp.com/production/repositories/5224/datasets/3f5ce67d4f2cbab3e2698ee63e8d470f6f4374f2/YTM_GM10Y.png =80){{2}}
 
 `@script`
 Here is another example: let us calculate the yield for a German government bond. Given the 10Y bond with coupon 0, price 102.17, the yield we get is -0.21%.
