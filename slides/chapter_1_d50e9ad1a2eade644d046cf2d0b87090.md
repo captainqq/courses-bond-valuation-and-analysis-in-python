@@ -75,7 +75,7 @@ Here the code demonstrates how to write a python function to estimate a bond yie
 
 ---
 
-## Insert title here...
+## YTM of a US Treasury
 
 ```yaml
 type: TwoRows
@@ -92,6 +92,9 @@ ytm_US = bond_ytm(99.43, 100, 5, 1.75) # result:1.87
 ```
 
 `@script`
+Let us test this code in the field. Here we have traded US government bonds information from Bloomberg. Take the 5Y US treasury for example. We can input its coupon 1.75%, price $99.43, maturity 5Y to our python function and solve for the yield. Note in general government bonds pay coupons twice a year, so the payment frequency is set to 2. We obtain the yield 1.87%, which aligns with Bloomberg market data.
+ 
+Also notice: since this US treasury bond is priced slightly below par, its yield (1.87%) is higher than its coupon rate (1.75%) as expected.
 
 
 ---
