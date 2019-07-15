@@ -43,7 +43,7 @@ This is an example exercise.
 
 ---
 
-## Insert exercise title here
+## Estimating YTM of a plain vanilla bond
 
 ```yaml
 type: VideoExercise

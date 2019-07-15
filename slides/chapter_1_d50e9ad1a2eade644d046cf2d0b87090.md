@@ -3,7 +3,7 @@ key: d50e9ad1a2eade644d046cf2d0b87090
 title: 'Insert title here'
 ---
 
-## Title Slide
+## Estimating YTM of a plain vanilla bond
 
 ```yaml
 type: TitleSlide
