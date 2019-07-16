@@ -32,7 +32,7 @@ key: d16a187084
 ![](https://assets.datacamp.com/production/repositories/5224/datasets/6a4e1ff013a83e42e8383cabea18b37704e67154/BondPrice_Formula.png){{2}}
 
 `@part2`
-## Yield of maturity: solving the root by trial and error
+## Yield to maturity: solving the root by trial and error
 
 `@script`
 Recall we can obtain the current price of a plain vanilla fixed bond by calculating its present value. It equals to the sum of expected future cash flows, discounted using the bond's yield to maturity.
