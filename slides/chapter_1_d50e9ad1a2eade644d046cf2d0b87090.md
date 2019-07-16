@@ -51,7 +51,7 @@ key: d0ca271956
 ```
 
 `@part1`
-## _from scipy import optimize_
+## _import scipy.optimize as optimize_
 
 ```python
 def bond_ytm(price, par, T, coup, freq=2, guess=0.05):
